@@ -4,10 +4,9 @@ title = "FUSE From Scratch"
 description = "Building a FUSE based filesystem from scratch"
 +++
 
+**This is a work in progress entry! If you arrived here! Turn back. It is not ready.**
 
 ## Why this blog?
-
-  **This is a work in progress entry! If you arrived here! Turn back. It is not ready.**
 
   While FUSE is an amazing piece of technology, I found it too difficult to get started
   with. Information on FUSE is spread across the web in a combination of blogs,

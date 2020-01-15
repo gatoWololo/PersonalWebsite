@@ -14,15 +14,14 @@ highlight_theme = "solarized-light"
 build_search_index = false
 
 theme = "hyde"
-title = "wololo!"
+title = "Omar"
 
-description = "Much ado about programming"
+description = "Does your programming language spark joy?"
 
 [extra]
 # Put all your custom variables here
 hyde_links = [
-    {url = "/about/about", name = "Home"},
-    {url = "/about/about", name = "About me"},
+    {url = "/", name = "About Me"},
     {url = "/blog/main", name = "Blog"},
     {url = "https://github.com/gatoWololo", name = "Github Page"},
 ]
