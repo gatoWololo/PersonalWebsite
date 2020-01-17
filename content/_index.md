@@ -13,25 +13,20 @@ the Architecture and Compilers Group, advised by [Joseph Devietti](https://www.c
 
 ## Work
 
-A doctoral program gives me the freedom to work on fun and challenging engineering questions without worrying about business concerns. **I enjoy building software systems with
-an large emphasis on sound software engineering practices, cool programming languages, and practicality.**
+A doctoral program gives me the freedom to work on fun and challenging engineering questions without worrying about business concerns, and the freedom to try out crazier ideas! **I enjoy building software systems with large emphasis on sound software engineering practices, cool programming languages, and practicality.**
 
-I view [Rust](https://www.rust-lang.org/) as a great step in the right direction. I am lucky enough to work with Rust for our already cool research projects! What more could I ask for in a job?
+I view [Rust](https://www.rust-lang.org/) as a great step in the right direction. I am lucky enough to implement our research projects in Rust! What more could I ask for in a job?
 
-I plan to graduate Summer 2021.
-I am looking for systems research engineer or interesting Rust software engineering jobs!
-
-
+I plan to graduate Summer 2021. I am looking for systems research engineer or interesting Rust software engineering jobs!
 
 ## Research Interests
 
-My research focuses on all matters related to **systems programming**: How can we make systems programming easier in terms of productivity, security, and correctness?
-
-My research interests lie somewhere in the intersection of **systems programming, parallelism and concurrency, operating systems, software engineering, compilers, and programming languages.**
+I seek to answer the question "How can we improve software systems in terms of programmer productivity, maintainability, correctness, and security?"
+My research interests lie somewhere in the intersection of **systems programming, operating systems, software engineering, and programming languages.**
 
 You can find my publication history at [Google Scholar](https://scholar.google.com/citations?user=pcpWVZwAAAAJ&hl=en)
 
-There is too many cool things out there... I am also interested in virtualization, containers, kernel development, GPUs, computer architecture, programming tools, and type-level programming.
+I like way too many things so I am also highly interested in parallelism and concurrency, virtualization, containerization, compilers, kernel development, GPUs, computer architecture, programming tools, and type-level programming.
 
 ## Teaching
 
