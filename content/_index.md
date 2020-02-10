@@ -9,7 +9,7 @@ description = "Short description of my life"
 My name is **Omar Navarro Leija**. I am a 4th year CS PhD student at the University Of Pennsylvania. I'm part of
 the Architecture and Compilers Group, advised by [Joseph Devietti](https://www.cis.upenn.edu/~devietti/).
 
-<img src="omar.jpg"	title="Omar"/>
+<img src="/resources/aboutme/omar.jpg"	title="Omar"/>
 
 ## Work
 
@@ -41,5 +41,5 @@ My course would be better named Systems Programming in Rust with a strong focus 
 
 For those interested you can see the previous iteration of the [class website](https://www.cis.upenn.edu/~cis198/).
 
-<img src="pet_crab.gif"	width="100%" height="100%"/>
+<img src="/resources/aboutme/pet_crab.gif"	width="100%" height="100%"/>
 How I feel about Rust

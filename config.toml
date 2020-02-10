@@ -23,6 +23,7 @@ description = "Does your programming language spark joy?"
 hyde_links = [
     {url = "/", name = "About Me"},
     {url = "/blog/main", name = "Blog"},
+    {url = "/publications/main", name = "Publications"},
     {url = "https://github.com/gatoWololo", name = "Github Page"},
 ]
 
