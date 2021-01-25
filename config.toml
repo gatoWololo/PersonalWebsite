@@ -15,16 +15,14 @@ build_search_index = false
 
 theme = "hyde"
 title = "Omar"
-
-description = "Does your programming language spark joy?"
+description = "\"Time for Crab\" 🦀"
 
 [extra]
-# Put all your custom variables here
 hyde_links = [
     {url = "/", name = "About Me"},
     {url = "/blog/main", name = "Blog"},
     {url = "/publications/main", name = "Publications"},
-    {url = "https://github.com/gatoWololo", name = "Github Page"},
+    {url = "https://github.com/gatoWololo", name = "Github"},
 ]
 
 hyde_theme = "theme-base-08"
