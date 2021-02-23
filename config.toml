@@ -14,8 +14,8 @@ highlight_theme = "solarized-light"
 build_search_index = false
 
 theme = "hyde"
-title = "Omar"
-description = "\"Time for Crab\" 🦀"
+title = "Time For Crab 🦀"
+description = "Rust: Taste like crab, fast like C."
 
 [extra]
 hyde_links = [

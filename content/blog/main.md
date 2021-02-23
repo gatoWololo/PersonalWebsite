@@ -1,12 +1,12 @@
 +++
 title = "Blog List"
 description = "Blog Posts"
-date = 2020-10-27
+date = 2021-02-22
 +++
 
 
-- **[Using Cargo Patch](/blog/clangmissingheaders)**
-  How I figured out why clang++ was complaining about missing headers. (2018-11-14)
+- **[Using Cargo [patch] to Override Dependencies](/blog/cargo-patch)**
+  A guide to patching Rust Dependencies via Cargo [patch] (2020-02-22)
 - **[Missing C++ Headers for Clang](/blog/clangmissingheaders)**
   How I figured out why clang++ was complaining about missing headers. (2018-11-14)
 - **[Ptrace & You: A comprehensive overview of ptrace](/blog/ptraceintro)**
