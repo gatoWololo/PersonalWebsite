@@ -12,13 +12,13 @@ My name is **Omar S. Navarro Leija**. I am a 5th year CS Doctoral Candidate at t
 
 ## Research Interests
 
-I am broadly interested in systems programming and Rust 🦀. I spend most of my time working with the Linux programming interface and system call APIs (basically, all the things in the highly recommended [TLPI book](https://man7.org/tlpi/)).
+I am interested in systems programming and Rust. I spend most of my time working with the Linux programming interface and system call APIs (basically, all the things in the highly recommended [TLPI book](https://man7.org/tlpi/)).
 
 I enjoy solving practical, real-world problems and implementing robust software systems. Which doesn't always mesh well with academic interests...
 
-My doctoral research leverages deterministic program execution for solving various software problems. For example, in [Reproducible Containers](https://dl.acm.org/doi/10.1145/3373376.3378519) we create a container abstraction where all computation is guaranteed to be determinstic. This enables automatic [reproducible builds](https://reproducible-builds.org/).
+My doctoral research leverages _system call interception_ and _deterministic program execution_ for solving various software problems. For example, in [Reproducible Containers](https://dl.acm.org/doi/10.1145/3373376.3378519) we create a container abstraction where all computation is guaranteed to be determinstic. This enables automatic [reproducible builds](https://reproducible-builds.org/).
 
-See all publications [here](/publications/main).
+See all publications [here](/publications).
 
 ## Looking For Job 👁
 
@@ -39,4 +39,4 @@ For those interested you can see the previous iteration of the [class website](h
 <figcaption>Teaching Rust to new students.</figcaption>
 </figure>
 
-_Last updated January 25, 2021_
+_Last updated February 22, 2021_

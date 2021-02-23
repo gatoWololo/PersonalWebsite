@@ -1,0 +1,10 @@
+{# Slightly modified version of hyde/blog_post.html for the blog list.#}
+{% extends "index.html" %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ section.title }}</h1>
+  {{ section.content | safe }}
+</div>
+{% endblock content %}
+

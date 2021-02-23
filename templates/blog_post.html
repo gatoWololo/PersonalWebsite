@@ -1,0 +1,42 @@
+{# My copy of the Hyde blog_post.html template to add comments via utterances.es . #}
+{% extends "index.html" %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date"> Last updated: {{ page.date | date(format="%d-%m-%Y") }}</span>
+
+    <h3>{{ "Table Of Content" }}</h3>
+    {% if toc %}
+        <ul>
+            {% for h1 in toc %}
+                <li>
+                    <a href="{{h1.permalink | safe}}">{{ h1.title }}</a>
+{#                    One level of nesting only! #}
+{#                    {% if h1.children %}#}
+{#                        <ul>#}
+{#                            {% for h2 in h1.children %}#}
+{#                                <li>#}
+{#                                    <a href="{{h2.permalink | safe}}">{{ h2.title }}</a>#}
+{#                                </li>#}
+{#                            {% endfor %}#}
+{#                        </ul>#}
+{#                    {% endif %}#}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+  {{ page.content | safe }}
+
+    <script src="https://utteranc.es/client.js"
+            repo="gatowololo/PersonalWebsite"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+</div>
+
+{% endblock content %}
+

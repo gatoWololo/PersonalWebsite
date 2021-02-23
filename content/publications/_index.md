@@ -1,10 +1,11 @@
 +++
 title = "Research Publications"
-description = "All Research Contributions So Far"
-date = 2020-02-10
+template = "blog_list.html"
 +++
 
-All my publications as PDFs avaliable here.
+_Last updated: 02-22-2020_
+
+All my publications are available as PDFs here.
 
 **Computer Science**:
 - [Reproducible Containers](/resources/publications/dettrace.pdf) - ASPLOS 2020

@@ -20,8 +20,8 @@ description = "Rust: Taste like crab, fast like C."
 [extra]
 hyde_links = [
     {url = "/", name = "About Me"},
-    {url = "/blog/main", name = "Blog"},
-    {url = "/publications/main", name = "Publications"},
+    {url = "/blog/", name = "Blog"},
+    {url = "/publications", name = "Publications"},
     {url = "https://github.com/gatoWololo", name = "Github"},
 ]
 

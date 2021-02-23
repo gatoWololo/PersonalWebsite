@@ -1,10 +1,10 @@
 +++
-date = 2020-02-22
+date = 2021-02-22
 title = "Using Cargo [patch] to Override Dependencies"
 description = "Using Cargo Patch"
 +++
 
-_Recommened Rust Skill_: **Intermediate** [^1]
+_Recommended Rust Skill_: **Intermediate** [^1]
 
 ### Summary
 Here we cover Cargo's useful mechanism for temporarily and easily overriding dependencies: `[patch]`. I found the official documentation quite terse. Making it difficult to use in situations more complicated than simple examples. So here, we motivate and show many scenarios. Finally, we point out various edge-cases and footguns beyond what the Cargo book covers. 
@@ -67,18 +67,18 @@ Cargo fetches the source code of all dependencies when building a package, so my
 To exacerbate the difficulty, a dependency entry in the manifest (e.g. `nix = "0.17"`) is generally not enough to tell what version of a package Cargo is actually using. Cargo has some choice when picking version. See [Dependency Resolution](https://doc.rust-lang.org/cargo/reference/resolver.html) for more information. Instead, consult the `Cargo.lock` file see the exact version the resolver picked for our code:
 ```toml
 # Cargo.lock file
-...
+# ...
 [[package]]
 name = "nix"
 version = "0.17.0" # May be different from the version listed on the manifest.
-...
+# ...
 ```
 
 ### Patching Dependency With a Github `alt` Dependency
   We can push modified dependency to Github and have `cargo patch` use this version. This way, Cargo will automatically download our patch when building the project. This is convenient for others who may be using our patch. 
 ```toml
 # Our Cargo.toml
-...
+# ...
 [dependencies]
 nix = "0.17"
 libc = "0.2"
@@ -200,18 +200,20 @@ rr_channel = { git = "https:///github.com//gatoWololo/rr_channel"}
 Attempting to patch in the root manifest file led to two incompatible versions of `rr_channel` being used. Why was this happening? Notice the git URL for `crate_b/Cargo.toml` accidentally has extra `/`! So `rr_channel` was only getting patched in the first instance! Using the `cargo tree` command proved invaluable for finding the offending crate's manifest.
 
 ### Conclusion
-Patching is a powerful and very useful mechanism. Beware of the many sharp edges. I believe Cargo is extremely well designed, but dependency management is complicated and Cargo must handle many cases.
+Patching is a powerful and very useful mechanism. Beware of the many sharp edges. I believe Cargo is extremely well designed, but dependency management is complicated as Cargo must handle many use cases.
 
-#### Footnotes
-[^1] One common feedback about the Rust ecosystem is the lack of intermediate and advanced documentation and blogs. I have several half-finished blogs because they were ambitious, so this blog will assume familiarity with `Cargo`, `Cargo.toml`, and `Cargo.lock`. And roughly, how Rust deals with dependencies. In the future I may come back and do a `Cargo.toml` and `Cargo.lock` in depth blog.
+### Footnotes
+[^1]: One common feedback about the Rust ecosystem is the lack of intermediate and advanced documentation and blogs. I have several half-finished blogs because they were ambitious, so this blog will assume familiarity with `Cargo`, `Cargo.toml`, and `Cargo.lock`. And roughly, how Rust deals with dependencies. In the future I may come back and do a `Cargo.toml` and `Cargo.lock` in depth blog.
 
-[^2] [crates.io](https://crates.io/) is Rust's offical crate repository. By default all crate dependencies are downloaded from here on `cargo build`.
+[^2]: [crates.io](https://crates.io/) is Rust's official crate repository. By default all crate dependencies are downloaded from here on `cargo build`.
 
-[^3] [Here](https://doc.rust-lang.org/cargo/reference/overriding-dependencies.html) is the official Cargo Book documentation on `[patch]`.
+[^3]: [Here](https://doc.rust-lang.org/cargo/reference/overriding-dependencies.html) is the official Cargo Book documentation on `[patch]`.
 
-[^4] While Cargo replace is not technically deprecated. The [docs](https://doc.rust-lang.org/edition-guide/rust-2018/cargo-and-crates-io/replacing-dependencies-with-patch.html) state "while we don't intend to deprecate or remove [replace], you should prefer [patch] in all circumstances". So we should always use Cargo patch.
+[^4]: While Cargo replace is not technically deprecated. The [docs](https://doc.rust-lang.org/edition-guide/rust-2018/cargo-and-crates-io/replacing-dependencies-with-patch.html) state "while we don't intend to deprecate or remove [replace], you should prefer [patch] in all circumstances". So we should always use Cargo patch.
 
-[^5] There is nothing stopping us from leaving the `[patch]` permanently, but it does not seem to be good practice.
+[^5]: There is nothing stopping us from leaving the `[patch]` permanently, but it does not seem to be good practice.
 
-[^6] The structure of the `~/.cargo/` directory is unclear to me. So I omit attempting to explain finding this path.
+[^6]: The structure of the `~/.cargo/` directory is unclear to me. So I omit attempting to explain finding this path.
 
+### Comments
+Please leave comments below. You can also leave comments directly in the relevant [Github Issue](https://github.com/gatoWololo/PersonalWebsite/issues) and it will show up below.
