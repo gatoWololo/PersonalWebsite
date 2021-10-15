@@ -1,13 +1,13 @@
 +++
 title = "Research Publications"
-template = "blog_list.html"
+description = "All Research Contributions So Far"
+date = 2021-10-15
 +++
 
-_Last updated: 02-22-2020_
-
-All my publications are available as PDFs here.
+All my publications as PDFs avaliable here.
 
 **Computer Science**:
+- Demikernel Datapath OS Architecture for Microsecond-scale Kernel-bypass Systems - SOSP 2020
 - [Reproducible Containers](/resources/publications/dettrace.pdf) - ASPLOS 2020
 - [A Monad for Deterministic Parallel Shell Scripting](/resources/publications/detflow.pdf) - OOPSLA 2017
 - [GPUDrano: Detecting Uncoalesced Accesses in GPU Programs](/resources/publications/gpudrano.pdf) - CAV 2017
