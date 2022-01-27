@@ -23,7 +23,7 @@ See all publications [here](/publications/main).
 
 ## Looking For Job 👁
 
-I wil be graduating Spring/Summer 2022 and planning to transition into industry. I am most interested in engineering or research jobs solving interesting problems with Rust. Feel free to contact me!
+I wil be graduating late August 2022 and planning to transition into industry. I am most interested in engineering or research jobs solving interesting problems with Rust. Feel free to contact me!
 
 **My CV can be found [here](/resources/aboutme/omar_resume.pdf)**.
 
