@@ -4,26 +4,38 @@ base_url = "https://gatowololo.github.io"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+title = "Time For Crab 🦀"
+description = "My personal website"
+
+# The site theme to use.
+theme = "hyde"
+
+[markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Gutenberg
 highlight_code = true
 
+# When set to "true", missing highlight languages are treated as errors. Defaults to false.
+error_on_missing_highlight = true
+
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
 highlight_theme = "solarized-light"
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
-theme = "hyde"
-title = "Time For Crab 🦀"
-description = "Rust: Taste like crab, fast like C."
 
 [extra]
 hyde_links = [
     {url = "/", name = "About Me"},
-    {url = "/resources/aboutme/omar_resume.pdf", name = "CV"},
-    {url = "/publications/main", name = "Publications"},
-    {url = "https://github.com/gatoWololo", name = "Github"},
+    {url = "/resources/aboutme/omar_resume_no_number.pdf", name = "Resume"},
     {url = "/blog/main", name = "Blog"},
+    {url = "/publications/main", name = "Research Publications"},
+    {url = "/teaching/main", name = "Past Teaching"},
+    {url = "https://github.com/gatoWololo", name = "Github"},
 ]
 
-hyde_theme = "theme-base-08"
+hyde_theme = "theme-base-0d"
+hyde_reverse = "true"
