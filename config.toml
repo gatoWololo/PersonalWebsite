@@ -30,7 +30,7 @@ highlight_theme = "solarized-light"
 [extra]
 hyde_links = [
     {url = "/", name = "About Me"},
-    {url = "/resources/aboutme/omar_resume_no_number.pdf", name = "Resume"},
+    {url = "/resources/aboutme/omar_resume_websafe.pdf", name = "Resume"},
     {url = "/blog/main", name = "Blog"},
     {url = "/publications/main", name = "Research Publications"},
     {url = "/teaching/main", name = "Past Teaching"},
