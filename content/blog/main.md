@@ -1,10 +1,11 @@
 +++
 title = "Blog List"
 description = "Blog Posts"
-date = 2021-02-03
+date = 2025-08-17
 
 +++
 
+- **[Using Sticky Keys on Wayland without "latchlock" Behavior](/blog/sticky-keys-wayland)** (2025-08-17)
 - **[Patching Cargo Dependencies](/blog/cargo-patch)**
   Patching Rust Dependencies via Cargo Patch (2020-02-03)
 - **[Missing C++ Headers for Clang](/blog/clangmissingheaders)**
