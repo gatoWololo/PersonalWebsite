@@ -6,13 +6,12 @@ description = "About Me"
 
 <img src="/resources/aboutme/omar.jpg"	title="Omar" width="250" height="250" style="float:right"/>
 
-My name is **Omar S. Navarro Leija, PhD**. I combine rigorous software engineering with a researcher mindset
+My name is **Omar S. Navarro Leija**. I combine rigorous software engineering with a researcher mindset
 to solve difficult technical problems. I bring expertise in Linux systems programming, with over 7 years experience
 with Rust. I am currently living in foggy San Francisco, CA.
 
-I work at Bolt Labs as a senior software engineer developing backend systems for Wallet-as-a-service infrastructure
-and implementing our cutting-edge distributed cryptographic protocols software library. I am a passionate Rust 
-programmer with advanced knowledge of the language, tooling, best practices, and broader ecosystem.
+I work at [AllSpice.io](https://allspice.io/) bringing modern workflows and collaboration tool to hardware design!
+I am a passionate Rust programmer with deep knowledge of the language, tooling, best practices, and broader ecosystem.
 
 ## Research
 
